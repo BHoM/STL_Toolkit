@@ -68,7 +68,7 @@ namespace BH.Adapter.STL
                 try
                 {
                     // write text files
-                    File.WriteAllLines(System.IO.Path.Combine(m_stlSettings.Directory, stlName, ".stl"), geoTxt);
+                    File.WriteAllLines(System.IO.Path.Combine(m_stlSettings.Directory, stlName + ".stl"), geoTxt);
                 }
                 catch (Exception e)
                 {
@@ -109,7 +109,7 @@ namespace BH.Adapter.STL
             try
             {
                 // write text files
-                File.WriteAllLines(System.IO.Path.Combine(m_stlSettings.Directory, stlName, ".stl"), geoTxt);
+                File.WriteAllLines(System.IO.Path.Combine(m_stlSettings.Directory, stlName + ".stl"), geoTxt);
             }
             catch(Exception e)
             {
