@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STL_Adapter", "STL_Adapter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STL_oM", "STL_oM\STL_oM.csproj", "{29661C5B-2B47-4727-B580-3ECC7A0693BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STL_Engine", "STL_Engine\STL_Engine.csproj", "{3C7DC255-1047-47FC-A688-95CE6D93E47F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{29661C5B-2B47-4727-B580-3ECC7A0693BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29661C5B-2B47-4727-B580-3ECC7A0693BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29661C5B-2B47-4727-B580-3ECC7A0693BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7DC255-1047-47FC-A688-95CE6D93E47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7DC255-1047-47FC-A688-95CE6D93E47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7DC255-1047-47FC-A688-95CE6D93E47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7DC255-1047-47FC-A688-95CE6D93E47F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

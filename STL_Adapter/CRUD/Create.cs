@@ -45,7 +45,7 @@ namespace BH.Adapter.STL
             {
                 string stlName = g.FileName;
                 List<string> geoTxt = new List<string>();
-                List<Polyline> polylines = g.Geometry.SelectMany(x => x.ToPolyline()).ToList();
+                List<Polyline> polylines = g.Geometry.SelectMany(x => x.IToPolyline()).ToList();
 
                 if (polylines.Any())
                 {
