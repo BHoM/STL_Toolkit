@@ -30,6 +30,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 
+using BH.Engine.STL;
+
 namespace BH.Adapter.STL
 {
     public partial class STLAdapter : BHoMAdapter
