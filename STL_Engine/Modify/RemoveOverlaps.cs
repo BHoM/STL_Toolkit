@@ -51,7 +51,8 @@ namespace BH.Engine.STL
 
             for(int x = 0; x < geometryGroups.Count; x++)
             {
-                List<Polyline> polylines = geometryGroups[x].Geometry.Select(a => a as Polyline).ToList();
+                List<Polyline> polylines = geometryGroups[x].Geometry.SelectMany(a => a.IToPolyline()).ToList();
+                polylines = polylines.Where(a => a != null).ToList();
 
                 List<IGeometry> replacementPolylines = new List<IGeometry>();
                 foreach(Polyline p in polylines)
