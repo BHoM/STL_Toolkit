@@ -45,7 +45,8 @@ namespace BH.Engine.STL
         [Output("geometryGroups", "The modified collection of Geometry Groups with geometry triangulated")]
         public static List<GeometryGroup> RemoveOverlaps(List<GeometryGroup> geometryGroups)
         {
-            List<Polyline> potentialOverlappingLines = geometryGroups.SelectMany(a => a.Geometry.Select(b => b as Polyline)).ToList();
+            List<Polyline> potentialOverlappingLines = geometryGroups.SelectMany(a => a.Geometry.SelectMany(b => b.IToPolyline())).ToList();
+            potentialOverlappingLines = potentialOverlappingLines.Where(x => x != null).ToList();
             List<GeometryGroup> newSTLObjects = new List<GeometryGroup>();
 
             for(int x = 0; x < geometryGroups.Count; x++)

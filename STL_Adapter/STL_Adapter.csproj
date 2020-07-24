@@ -97,13 +97,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Convert\ToPolyline.cs" />
     <Compile Include="Convert\ToSTL.cs" />
     <Compile Include="CRUD\Create.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="STL_Adapter.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\STL_Engine\STL_Engine.csproj">
+      <Project>{3c7dc255-1047-47fc-a688-95ce6d93e47f}</Project>
+      <Name>STL_Engine</Name>
+    </ProjectReference>
     <ProjectReference Include="..\STL_oM\STL_oM.csproj">
       <Project>{29661c5b-2b47-4727-b580-3ecc7a0693bb}</Project>
       <Name>STL_oM</Name>
