@@ -39,6 +39,11 @@ namespace BH.Engine.STL
             return ToPolyline(geom as dynamic);
         }
 
+        public static List<Polyline> ToPolyline(this Polyline pline)
+        {
+            return new List<Polyline> { pline };
+        }
+
         //Solids
         public static List<Polyline> ToPolyline(this BoundaryRepresentation brep)
         {
