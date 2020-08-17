@@ -32,7 +32,7 @@ using BH.oM.Reflection.Attributes;
 
 using BH.Engine.Geometry;
 
-namespace BH.Engine.STL
+namespace BH.Engine.Adapters.STL
 {
     public static partial class Query
     {

@@ -24,13 +24,13 @@ using System;
 
 using BH.oM.Adapter;
 
-using BH.oM.STL;
+using BH.oM.Adapters.STL;
 using BH.oM.Geometry;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 
-using BH.Engine.STL;
+using BH.Engine.Adapters.STL;
 
 namespace BH.Adapter.STL
 {

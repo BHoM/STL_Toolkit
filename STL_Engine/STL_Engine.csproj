@@ -7,7 +7,7 @@
     <ProjectGuid>{3C7DC255-1047-47FC-A688-95CE6D93E47F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BH.Engine.STL</RootNamespace>
+    <RootNamespace>BH.Engine.Adapters.STL</RootNamespace>
     <AssemblyName>STL_Engine</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

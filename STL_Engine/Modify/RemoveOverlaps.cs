@@ -34,9 +34,9 @@ using BH.Engine.Environment;
 using BH.oM.Reflection.Attributes;
 using System.ComponentModel;
 
-using BH.oM.STL;
+using BH.oM.Adapters.STL;
 
-namespace BH.Engine.STL
+namespace BH.Engine.Adapters.STL
 {
     public static partial class Modify
     {
