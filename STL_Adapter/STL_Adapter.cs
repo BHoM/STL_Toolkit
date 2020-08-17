@@ -29,8 +29,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 
-using BH.oM.STL.Settings;
-using BH.oM.Adapter;
+using BH.oM.Adapters.STL;
 
 namespace BH.Adapter.STL
 {

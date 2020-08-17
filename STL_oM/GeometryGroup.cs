@@ -25,7 +25,7 @@ using BH.oM.Geometry;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace BH.oM.STL
+namespace BH.oM.Adapters.STL
 {
     [Description("This object can be used to group geometry to push to a specific file. Useful if pushing groups of geometry related to specific representations, for example, a group of panels to one file, and a group of bars to another.")]
     public class GeometryGroup : BHoMObject

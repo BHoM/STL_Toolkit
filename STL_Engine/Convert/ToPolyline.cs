@@ -30,7 +30,7 @@ using BH.oM.Base;
 using BH.oM.Geometry;
 using BH.Engine.Geometry;
 
-namespace BH.Engine.STL
+namespace BH.Engine.Adapters.STL
 {
     public static partial class Convert
     {

@@ -24,7 +24,7 @@ using BH.oM.Base;
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace BH.oM.STL.Settings
+namespace BH.oM.Adapters.STL
 {
     public class STLSettings : BHoMObject
     {

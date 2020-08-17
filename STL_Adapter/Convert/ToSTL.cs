@@ -34,7 +34,7 @@ using BH.Engine.Reflection;
 using BH.oM.Environment.Elements;
 using BH.Engine.Geometry;
 
-using BH.oM.STL.Settings;
+using BH.oM.Adapters.STL;
 
 namespace BH.Adapter.STL
 {

@@ -7,7 +7,7 @@
     <ProjectGuid>{29661C5B-2B47-4727-B580-3ECC7A0693BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BH.oM.STL</RootNamespace>
+    <RootNamespace>BH.oM.Adapters.STL</RootNamespace>
     <AssemblyName>STL_oM</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
