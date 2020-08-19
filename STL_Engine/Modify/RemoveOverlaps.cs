@@ -57,7 +57,7 @@ namespace BH.Engine.Adapters.STL
                 List<IGeometry> replacementPolylines = new List<IGeometry>();
                 foreach(Polyline p in polylines)
                 {
-                    List<Polyline> overlappingLines = potentialOverlappingLines.Where(a => p.PartiallyContains(a.ControlPoints)).ToList(); //To simplify the triangulation calculation by removing unnecessary polylines from the calculations
+                    List<Polyline> overlappingLines = potentialOverlappingLines.Where(a => p.IsPartiallyContaining(a.ControlPoints)).ToList(); //To simplify the triangulation calculation by removing unnecessary polylines from the calculations
                     foreach (Polyline p1 in BH.Engine.Geometry.Triangulation.Compute.DelaunayTriangulation(p, overlappingLines.Where(a => a != p).ToList()))
                         replacementPolylines.Add(p1);
                 }

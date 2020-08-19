@@ -84,7 +84,6 @@
     <Compile Include="Convert\ToPolyline.cs" />
     <Compile Include="Modify\RemoveOverlaps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Query\PartiallyContains.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\STL_oM\STL_oM.csproj">
@@ -92,6 +91,9 @@
       <Name>STL_oM</Name>
       <Private>False</Private>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Query\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
