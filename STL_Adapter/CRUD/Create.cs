@@ -31,6 +31,7 @@ using System.Linq;
 using System.IO;
 
 using BH.Engine.Adapters.STL;
+using BH.Engine.Geometry;
 
 namespace BH.Adapter.STL
 {
