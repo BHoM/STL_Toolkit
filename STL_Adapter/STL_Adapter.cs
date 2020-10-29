@@ -53,7 +53,6 @@ namespace BH.Adapter.STL
 
             m_AdapterSettings.DefaultPushType = oM.Adapter.PushType.CreateOnly;
             m_stlSettings = stlSettings;
-            AdapterIdName = "STL_Adapter";
         }
 
         /***************************************************/
