@@ -81,6 +81,26 @@ namespace BH.Engine.Geometry
             return psurface.IExternalEdges().Select(x => x.ICollapseToPolyline(BH.oM.Geometry.Tolerance.Angle)).ToList();
         }
 
+        public static List<Polyline> ToPolyline(this Mesh mesh)
+        {
+            List<Polyline> polylines = new List<Polyline>();
+            foreach (Face face in mesh.Faces)
+            {
+                List<Point> controlPoints = new List<Point>();
+                controlPoints.Add(mesh.Vertices[face.A]);
+                controlPoints.Add(mesh.Vertices[face.B]);
+                controlPoints.Add(mesh.Vertices[face.C]);
+                if (face.D != -1)
+                {
+                    controlPoints.Add(mesh.Vertices[face.D]);
+                }
+                Polyline polyline = new Polyline() { ControlPoints = controlPoints };
+                polylines.Add(polyline);
+            }
+
+            return polylines;
+        }
+
         public static List<Polyline> ToPolyline(this IObject obj)
         {
             BH.Engine.Reflection.Compute.RecordError("This geometry type is not currently supported by STL Toolkit");
