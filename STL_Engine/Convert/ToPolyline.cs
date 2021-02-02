@@ -94,6 +94,7 @@ namespace BH.Engine.Geometry
                 {
                     controlPoints.Add(mesh.Vertices[face.D]);
                 }
+                controlPoints.Add(controlPoints.First()); 
                 Polyline polyline = new Polyline() { ControlPoints = controlPoints };
                 polylines.Add(polyline);
             }
