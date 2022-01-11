@@ -104,7 +104,7 @@ namespace BH.Engine.Geometry
 
         public static List<Polyline> ToPolyline(this IObject obj)
         {
-            BH.Engine.Reflection.Compute.RecordError("This geometry type is not currently supported by STL Toolkit");
+            BH.Engine.Base.Compute.RecordError("This geometry type is not currently supported by STL Toolkit");
             return new List<Polyline>();
         }
     }

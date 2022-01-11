@@ -61,7 +61,7 @@ namespace BH.Adapter.STL
                         }
                         catch (Exception e)
                         {
-                            BH.Engine.Reflection.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
+                            BH.Engine.Base.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
                             return false;
                         }
                     }
@@ -75,7 +75,7 @@ namespace BH.Adapter.STL
                 }
                 catch (Exception e)
                 {
-                    BH.Engine.Reflection.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
+                    BH.Engine.Base.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
                     return false;
                 }
             }
@@ -102,7 +102,7 @@ namespace BH.Adapter.STL
                     }
                     catch (Exception e)
                     {
-                        BH.Engine.Reflection.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
+                        BH.Engine.Base.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
                         return false;
                     }
                 }
@@ -116,7 +116,7 @@ namespace BH.Adapter.STL
             }
             catch(Exception e)
             {
-                BH.Engine.Reflection.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
+                BH.Engine.Base.Compute.RecordError("An error occurred in exporting the STL file. Error is: " + e.ToString());
                 return false;
             }
 

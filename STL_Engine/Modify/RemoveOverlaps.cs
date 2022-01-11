@@ -31,7 +31,7 @@ using BH.oM.Geometry;
 using BH.Engine.Geometry;
 using BH.Engine.Environment;
 
-using BH.oM.Reflection.Attributes;
+using BH.oM.Base.Attributes;
 using System.ComponentModel;
 
 using BH.oM.Adapters.STL;

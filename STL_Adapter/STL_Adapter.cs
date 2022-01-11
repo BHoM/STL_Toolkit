@@ -22,7 +22,7 @@
 
 using BH.oM.Base;
 using BH.oM.Data.Requests;
-using BH.oM.Reflection.Attributes;
+using BH.oM.Base.Attributes;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,7 +47,7 @@ namespace BH.Adapter.STL
         {
             if (stlSettings == null)
             {
-                BH.Engine.Reflection.Compute.RecordError("Please set the STL Settings correctly to enable the STL Adapter to work correctly.");
+                BH.Engine.Base.Compute.RecordError("Please set the STL Settings correctly to enable the STL Adapter to work correctly.");
                 return;
             }
 

@@ -27,10 +27,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 using BH.oM.Geometry;
-using BH.oM.Reflection;
-using BH.oM.Reflection.Attributes;
+using BH.oM.Base;
+using BH.oM.Base.Attributes;
 using System.ComponentModel;
-using BH.Engine.Reflection;
+using BH.Engine.Base;
 using BH.oM.Environment.Elements;
 using BH.Engine.Geometry;
 
