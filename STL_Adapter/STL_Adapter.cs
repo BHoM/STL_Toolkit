@@ -40,9 +40,9 @@ namespace BH.Adapter.STL
         /**** Constructors                              ****/
         /***************************************************/
 
-        [Description("Produces a STL Adapter to allow interoperability with STL file representation of geometry")]
-        [Input("stlSettings", "STL settings which define how the push or pull operation should operate")]
-        [Output("adapter", "Adapter to STL file")]
+        [Description("Produces a STL Adapter to allow interoperability with STL file representation of geometry.")]
+        [Input("stlSettings", "STL settings which define how the push or pull operation should operate.")]
+        [Output("adapter", "Adapter to STL file.")]
         public STLAdapter(STLSettings stlSettings)
         {
             if (stlSettings == null)
