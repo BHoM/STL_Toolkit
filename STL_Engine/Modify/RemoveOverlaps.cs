@@ -1,6 +1,6 @@
 /*
  * This file is part of the Buildings and Habitats object Model (BHoM)
- * Copyright (c) 2015 - 2023, the respective contributors. All rights reserved.
+ * Copyright (c) 2015 - 2024, the respective contributors. All rights reserved.
  *
  * Each contributor holds copyright over their respective contributions.
  * The project versioning (Git) records all such contribution source information.
@@ -40,10 +40,10 @@ namespace BH.Engine.Adapters.STL
 {
     public static partial class Modify
     {
-        [Description("Resolve overlapping geometry in geometry groups by triangulating the geometry")]
-        [Input("geometryGroups", "A collection of Geometry Groups which contain geometry that may overlap. These will be checked to ensure none of the geometry overlaps each other")]
-        [Output("geometryGroups", "The modified collection of Geometry Groups with geometry triangulated")]
-        public static List<GeometryGroup> RemoveOverlaps(List<GeometryGroup> geometryGroups)
+        [Description("Resolve overlapping geometry in geometry groups by triangulating the geometry.")]
+        [Input("geometryGroups", "A collection of Geometry Groups which contain geometry that may overlap. These will be checked to ensure none of the geometry overlaps each other.")]
+        [Output("geometryGroups", "The modified collection of Geometry Groups with geometry triangulated.")]
+        public static List<GeometryGroup> RemoveOverlaps(this List<GeometryGroup> geometryGroups)
         {
             List<Polyline> potentialOverlappingLines = geometryGroups.SelectMany(a => a.Geometry.SelectMany(b => b.IToPolyline())).ToList();
             potentialOverlappingLines = potentialOverlappingLines.Where(x => x != null).ToList();
@@ -76,6 +76,7 @@ namespace BH.Engine.Adapters.STL
         }
     }
 }
+
 
 
 
