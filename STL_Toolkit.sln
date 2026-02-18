@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STL_Adapter", "STL_Adapter\STL_Adapter.csproj", "{2722C071-B053-4A58-87CC-3E7491C503E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STL_Adapter", "STL_Adapter\STL_Adapter.csproj", "{2722C071-B053-4A58-87CC-3E7491C503E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STL_oM", "STL_oM\STL_oM.csproj", "{29661C5B-2B47-4727-B580-3ECC7A0693BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STL_oM", "STL_oM\STL_oM.csproj", "{29661C5B-2B47-4727-B580-3ECC7A0693BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STL_Engine", "STL_Engine\STL_Engine.csproj", "{3C7DC255-1047-47FC-A688-95CE6D93E47F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STL_Engine", "STL_Engine\STL_Engine.csproj", "{3C7DC255-1047-47FC-A688-95CE6D93E47F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
